@@ -8,3 +8,5 @@
 <p>
 Dopo aver creato la cartella dove risiederà il file monitor_aria.py   si dovrà scaricare il file .csv dei dati della regione.</p>
 Il .csv dovrà essere salvato nella stessa cartella e dovrà essere denominato Dati_sensori_aria.csv
+
+Wiki per maggiori informazioni.
