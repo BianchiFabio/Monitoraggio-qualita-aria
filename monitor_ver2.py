@@ -68,23 +68,23 @@ def centraline ():
                 
     #                                                                CENTRALINE                                                                           #      
 
-    #::::::::::::::::::::::::::::::::::::::::::::::::::::#                               #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::#    
-    #                STAZIONE ANALIZZATA                 #                               #                          STAZIONE ANALIZZATA                       #
-    # Nome stazione              Brescia - via Turati    #                               # Nome stazione                 Brescia - Broletto                  #
-    # Idstazione                 652                             #                               # Idstazione                            649                                 #
-    # ---------------------------------------------------#                               # ---------------------------------------------------------------#
-    # IdSensore | NomeTipoSensore          | UnitaMisura #                               # IdSensore | NomeTipoSensore          | DataStop  | UnitaMisura #
-    # ----------|--------------------------|-------------#                               # ----------|--------------------------|-----------+-------------#   
-    # 6781      | Biossido di Azoto        | µg/m³       #                               # 6767      | Ozono                    | 27/02/2004| µg/m³       #
-    # 30166     | Benzene                  | µg/m³       #                               # 6766      | Ossidi di Azoto          |           | µg/m³       #
-    # 6782      | Monossido di Carbonio    | mg/m³       #                               # 6761      | Biossido di Azoto        |           | µg/m³       #
-    # 6784      | Ossidi di Azoto          | µg/m³       #                               # 30158     | Particelle sospese PM2.5 |           | µg/m³       #
-    #           |                          |             #                               # 6764      | Monossido di Carbonio    |           | mg/m³       #
-    #           |                          |             #                               # 6951      | PM10 (SM2005)            |           | µg/m³       #
-    #           |                          |             #                               # 6762      | Biossido di Zolfo        | 06/06/2000| µg/m³       #
-    # ---------------------------------------------------#                               # -------------------------------------------------+-------------#     
-    #          lat 45.5395294 lng 10.2317859             #                               #           lat 45.540057846971386 lng 10.222818449274216        #
-    #::::::::::::::::::::::::::::::::::::::::::::::::::::#                               #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::#    
+    #::::::::::::::::::::::::::::::::::::::::::::::::::::#           #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::#    
+    #                STAZIONE ANALIZZATA                 #           #                          STAZIONE ANALIZZATA                       #
+    # Nome stazione              Brescia - via Turati    #           # Nome stazione                 Brescia - Broletto                  #
+    # Idstazione                 652                     #           # Idstazione                            649                                 #
+    # ---------------------------------------------------#           # ---------------------------------------------------------------#
+    # IdSensore | NomeTipoSensore          | UnitaMisura #           # IdSensore | NomeTipoSensore          | DataStop  | UnitaMisura #
+    # ----------|--------------------------|-------------#           # ----------|--------------------------|-----------+-------------#   
+    # 6781      | Biossido di Azoto        | µg/m³       #           # 6767      | Ozono                    | 27/02/2004| µg/m³       #
+    # 30166     | Benzene                  | µg/m³       #           # 6766      | Ossidi di Azoto          |           | µg/m³       #
+    # 6782      | Monossido di Carbonio    | mg/m³       #           # 6761      | Biossido di Azoto        |           | µg/m³       #
+    # 6784      | Ossidi di Azoto          | µg/m³       #           # 30158     | Particelle sospese PM2.5 |           | µg/m³       #
+    #           |                          |             #           # 6764      | Monossido di Carbonio    |           | mg/m³       #
+    #           |                          |             #           # 6951      | PM10 (SM2005)            |           | µg/m³       #
+    #           |                          |             #           # 6762      | Biossido di Zolfo        | 06/06/2000| µg/m³       #
+    # ---------------------------------------------------#           # -------------------------------------------------+-------------#     
+    #          lat 45.5395294 lng 10.2317859             #           #           lat 45.540057846971386 lng 10.222818449274216        #
+    #::::::::::::::::::::::::::::::::::::::::::::::::::::#           #::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::#    
     '''
 
 def limiti():
