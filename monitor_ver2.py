@@ -1,17 +1,14 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
 # -------------------------------------------------------------------------
 
 dati = pd.read_csv ('200505_Dati_sensori_aria.csv', sep=";",header = 0)
 # Carico i dati dal .csv nel pd dati ATTENZIONE AL SEPARATORE DEI DATI DEL CSV: A VOLTE E' , A VOLTE E' ;
 print (dati.head(2))
-
 # -------------------------------------------------------------------------
 
 datiPM10 = dati [dati.IdSensore == 6951] # filtro le righe che contengono i dati IdSensore selezionato
 datiPM2_5 = dati [dati.IdSensore == 30158] # filtro le righe che contengono i dati IdSensore selezionato
-
 # -------------------------------------------------------------------------
 
 # PM 10
@@ -25,7 +22,6 @@ dati1_chart = datiPM10 [['DataCORR', 'Valore']].sort_values(by='DataCORR')#, asc
 dati1_chart.plot (x = 'DataCORR', title = 'PM 10', figsize=(18,8), fontsize=15, ax=ax)
 ax.grid(which='major', linestyle='-', linewidth='1.5', color='green')
 ax.grid(which='minor', linestyle=':', linewidth='0.5', color='red')
-
 # -------------------------------------------------------------------------
 
 # PM 2.5
@@ -39,9 +35,9 @@ dati2_chart = datiPM2_5 [['DataCORR', 'Valore']].sort_values(by='DataCORR')#, as
 dati2_chart.plot (x = 'DataCORR', title = 'PM 2.5', figsize=(18,8), fontsize=15, ax=ax)
 ax.grid(which='major', linestyle='-', linewidth='1.5', color='green')
 ax.grid(which='minor', linestyle=':', linewidth='0.5', color='red')
+# -------------------------------------------------------------------------
 
 plt.show()
-
 # -------------------------------------------------------------------------
 
 # Fabio Bianchi
